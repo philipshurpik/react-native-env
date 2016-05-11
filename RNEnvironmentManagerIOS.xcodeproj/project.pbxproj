@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA5891DC1BA9A9FC002B4DB2 /* RNDeviceInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA5891DB1BA9A9FC002B4DB2 /* RNDeviceInfo.h */; };
-		DA5891DE1BA9A9FC002B4DB2 /* RNDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5891DD1BA9A9FC002B4DB2 /* RNDeviceInfo.m */; };
+		50F901C61CE34E3E0079553D /* RNEnvironmentManagerIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50F901C51CE34E3E0079553D /* RNEnvironmentManagerIOS.h */; };
+		50F901C81CE34E3E0079553D /* RNEnvironmentManagerIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F901C71CE34E3E0079553D /* RNEnvironmentManagerIOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DA5891D61BA9A9FC002B4DB2 /* CopyFiles */ = {
+		50F901C01CE34E3E0079553D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DA5891DC1BA9A9FC002B4DB2 /* RNDeviceInfo.h in CopyFiles */,
+				50F901C61CE34E3E0079553D /* RNEnvironmentManagerIOS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA5891D81BA9A9FC002B4DB2 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDeviceInfo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA5891DB1BA9A9FC002B4DB2 /* RNDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDeviceInfo.h; sourceTree = "<group>"; };
-		DA5891DD1BA9A9FC002B4DB2 /* RNDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDeviceInfo.m; sourceTree = "<group>"; };
+		50F901C21CE34E3E0079553D /* libRNEnvironmentManagerIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNEnvironmentManagerIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F901C51CE34E3E0079553D /* RNEnvironmentManagerIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEnvironmentManagerIOS.h; sourceTree = "<group>"; };
+		50F901C71CE34E3E0079553D /* RNEnvironmentManagerIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEnvironmentManagerIOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA5891D51BA9A9FC002B4DB2 /* Frameworks */ = {
+		50F901BF1CE34E3E0079553D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA5891CF1BA9A9FC002B4DB2 = {
+		50F901B91CE34E3E0079553D = {
 			isa = PBXGroup;
 			children = (
-				DA5891DA1BA9A9FC002B4DB2 /* RNDeviceInfo */,
-				DA5891D91BA9A9FC002B4DB2 /* Products */,
+				50F901C41CE34E3E0079553D /* RNEnvironmentManagerIOS */,
+				50F901C31CE34E3E0079553D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA5891D91BA9A9FC002B4DB2 /* Products */ = {
+		50F901C31CE34E3E0079553D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA5891D81BA9A9FC002B4DB2 /* libRNDeviceInfo.a */,
+				50F901C21CE34E3E0079553D /* libRNEnvironmentManagerIOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA5891DA1BA9A9FC002B4DB2 /* RNDeviceInfo */ = {
+		50F901C41CE34E3E0079553D /* RNEnvironmentManagerIOS */ = {
 			isa = PBXGroup;
 			children = (
-				DA5891DB1BA9A9FC002B4DB2 /* RNDeviceInfo.h */,
-				DA5891DD1BA9A9FC002B4DB2 /* RNDeviceInfo.m */,
+				50F901C51CE34E3E0079553D /* RNEnvironmentManagerIOS.h */,
+				50F901C71CE34E3E0079553D /* RNEnvironmentManagerIOS.m */,
 			);
-			path = RNDeviceInfo;
+			path = RNEnvironmentManagerIOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA5891D71BA9A9FC002B4DB2 /* RNDeviceInfo */ = {
+		50F901C11CE34E3E0079553D /* RNEnvironmentManagerIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA5891E11BA9A9FC002B4DB2 /* Build configuration list for PBXNativeTarget "RNDeviceInfo" */;
+			buildConfigurationList = 50F901CB1CE34E3E0079553D /* Build configuration list for PBXNativeTarget "RNEnvironmentManagerIOS" */;
 			buildPhases = (
-				DA5891D41BA9A9FC002B4DB2 /* Sources */,
-				DA5891D51BA9A9FC002B4DB2 /* Frameworks */,
-				DA5891D61BA9A9FC002B4DB2 /* CopyFiles */,
+				50F901BE1CE34E3E0079553D /* Sources */,
+				50F901BF1CE34E3E0079553D /* Frameworks */,
+				50F901C01CE34E3E0079553D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RNDeviceInfo;
-			productName = RNDeviceInfo;
-			productReference = DA5891D81BA9A9FC002B4DB2 /* libRNDeviceInfo.a */;
+			name = RNEnvironmentManagerIOS;
+			productName = RNEnvironmentManagerIOS;
+			productReference = 50F901C21CE34E3E0079553D /* libRNEnvironmentManagerIOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA5891D01BA9A9FC002B4DB2 /* Project object */ = {
+		50F901BA1CE34E3E0079553D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Learnium;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Philip Shurpik";
 				TargetAttributes = {
-					DA5891D71BA9A9FC002B4DB2 = {
-						CreatedOnToolsVersion = 7.0;
+					50F901C11CE34E3E0079553D = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = DA5891D31BA9A9FC002B4DB2 /* Build configuration list for PBXProject "RNDeviceInfo" */;
+			buildConfigurationList = 50F901BD1CE34E3E0079553D /* Build configuration list for PBXProject "RNEnvironmentManagerIOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DA5891CF1BA9A9FC002B4DB2;
-			productRefGroup = DA5891D91BA9A9FC002B4DB2 /* Products */;
+			mainGroup = 50F901B91CE34E3E0079553D;
+			productRefGroup = 50F901C31CE34E3E0079553D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA5891D71BA9A9FC002B4DB2 /* RNDeviceInfo */,
+				50F901C11CE34E3E0079553D /* RNEnvironmentManagerIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA5891D41BA9A9FC002B4DB2 /* Sources */ = {
+		50F901BE1CE34E3E0079553D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5891DE1BA9A9FC002B4DB2 /* RNDeviceInfo.m in Sources */,
+				50F901C81CE34E3E0079553D /* RNEnvironmentManagerIOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DA5891DF1BA9A9FC002B4DB2 /* Debug */ = {
+		50F901C91CE34E3E0079553D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -146,6 +147,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -171,10 +173,11 @@
 			};
 			name = Debug;
 		};
-		DA5891E01BA9A9FC002B4DB2 /* Release */ = {
+		50F901CA1CE34E3E0079553D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -188,6 +191,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -207,7 +211,7 @@
 			};
 			name = Release;
 		};
-		DA5891E21BA9A9FC002B4DB2 /* Debug */ = {
+		50F901CC1CE34E3E0079553D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
@@ -224,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		DA5891E31BA9A9FC002B4DB2 /* Release */ = {
+		50F901CD1CE34E3E0079553D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
@@ -244,25 +248,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA5891D31BA9A9FC002B4DB2 /* Build configuration list for PBXProject "RNDeviceInfo" */ = {
+		50F901BD1CE34E3E0079553D /* Build configuration list for PBXProject "RNEnvironmentManagerIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA5891DF1BA9A9FC002B4DB2 /* Debug */,
-				DA5891E01BA9A9FC002B4DB2 /* Release */,
+				50F901C91CE34E3E0079553D /* Debug */,
+				50F901CA1CE34E3E0079553D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA5891E11BA9A9FC002B4DB2 /* Build configuration list for PBXNativeTarget "RNDeviceInfo" */ = {
+		50F901CB1CE34E3E0079553D /* Build configuration list for PBXNativeTarget "RNEnvironmentManagerIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA5891E21BA9A9FC002B4DB2 /* Debug */,
-				DA5891E31BA9A9FC002B4DB2 /* Release */,
+				50F901CC1CE34E3E0079553D /* Debug */,
+				50F901CD1CE34E3E0079553D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA5891D01BA9A9FC002B4DB2 /* Project object */;
+	rootObject = 50F901BA1CE34E3E0079553D /* Project object */;
 }
