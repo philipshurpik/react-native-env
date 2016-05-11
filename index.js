@@ -1,1 +1,3 @@
-module.exports = require('react-native').NativeModules.RNEnvironmentManagerIOS
+import {NativeModules} from 'react-native';
+
+export default NativeModules.RNEnvironmentManagerIOS;
