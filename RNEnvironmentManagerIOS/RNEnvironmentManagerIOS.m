@@ -1,5 +1,5 @@
 #import "RNEnvironmentManagerIOS.h"
-#import "RCTConvert.h"
+#import <React/RCTConvert.h>
 
 @implementation RNEnvironmentManagerIOS
 
